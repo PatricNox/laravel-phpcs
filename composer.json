@@ -1,0 +1,16 @@
+{
+    "name": "fossbarrow/laravel-phpcs",
+    "description": "phpcs ruleset for laravel projects",
+    "type": "phpcs-ruleset",
+    "require-dev": {
+        "squizlabs/PHP_CodeSniffer": "3.3.x"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "patricnox",
+            "email": "hello@patricnox.info"
+        }
+    ],
+    "minimum-stability": "stable"
+}
