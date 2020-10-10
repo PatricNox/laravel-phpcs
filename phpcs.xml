@@ -43,7 +43,7 @@
     <rule ref="Generic.Metrics.NestingLevel">
         <properties>
             <property name="nestingLevel" value="5"/>
-            <property name="absoluteNestingLevel" value="15"/>
+            <property name="absoluteNestingLevel" value="25"/>
         </properties>
     </rule>
     <rule ref="Generic.NamingConventions.ConstructorName"/>
@@ -156,5 +156,5 @@
 
     <arg name="colors"/>
     <arg value="spv"/>
-    <ini name="memory_limit" value="128M"/>
+    <ini name="memory_limit" value="256M"/>
 </ruleset>
