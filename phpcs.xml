@@ -157,7 +157,6 @@
     <exclude-pattern>*/Providers/*</exclude-pattern>
     <exclude-pattern>*/resources/lang/*</exclude-pattern>
 
-    <arg name="report" value="summary"/>
     <arg name="colors"/>
     
     <ini name="memory_limit" value="128M"/>
