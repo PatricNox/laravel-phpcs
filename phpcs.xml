@@ -23,12 +23,6 @@
     <rule ref="Generic.Files.LineEndings">
         <exclude name="Generic.Files.LineEndings.InvalidEOLChar"/>
     </rule>
-    <rule ref="Generic.Files.LineLength">
-        <properties>
-            <property name="lineLimit" value="80"/>
-            <property name="absoluteLineLimit" value="85"/>
-        </properties>
-    </rule>
     <rule ref="Generic.Formatting.DisallowMultipleStatements"/>
     <rule ref="Generic.Formatting.SpaceAfterCast"/>
     <rule ref="Generic.Functions.CallTimePassByReference"/>
@@ -36,8 +30,8 @@
     <rule ref="Generic.Functions.OpeningFunctionBraceBsdAllman"/>
     <rule ref="Generic.Metrics.CyclomaticComplexity">
         <properties>
-            <property name="complexity" value="20"/>
-            <property name="absoluteComplexity" value="50"/>
+            <property name="complexity" value="10"/>
+            <property name="absoluteComplexity" value="15"/>
         </properties>
     </rule>
     <rule ref="Generic.Metrics.NestingLevel">
@@ -79,6 +73,10 @@
     </rule>
     <rule ref="PSR2">
         <exclude name="PSR2.ControlStructures.SwitchDeclaration.BodyOnNextLineCASE" />
+        <properties>
+            <property name="lineLimit" value="130"/>
+            <property name="absoluteLineLimit" value="135"/>
+        </properties>
     </rule>
     <rule ref="Squiz.Arrays.ArrayDeclaration">
         <exclude name="Squiz.Arrays.ArrayDeclaration.ValueNotAligned" />
@@ -133,7 +131,7 @@
     <file>public</file>
     <file>resources</file>
     <file>routes</file>
-    <file->tests</file>
+    <file>tests</file>
 
     <exclude-pattern>*/.phpstorm.meta.php</exclude-pattern>
     <exclude-pattern>*/_ide_helper.php</exclude-pattern>
@@ -158,6 +156,5 @@
     <exclude-pattern>*/resources/lang/*</exclude-pattern>
 
     <arg name="colors"/>
-    
     <ini name="memory_limit" value="128M"/>
 </ruleset>
