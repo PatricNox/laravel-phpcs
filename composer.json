@@ -3,7 +3,8 @@
     "description": "phpcs ruleset for laravel projects",
     "type": "phpcs-ruleset",
     "require-dev": {
-        "squizlabs/PHP_CodeSniffer": "3.*"
+        "php": "^7.4",
+        "squizlabs/php_codesniffer": "^3.5.5"
     },
     "license": "MIT",
     "authors": [
