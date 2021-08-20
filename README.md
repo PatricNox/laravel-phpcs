@@ -54,7 +54,7 @@ Add it to your project `phpcs.xml` or `phpcs.xml.dist` ruleset:
     <file>./routes</file>
     <file>./tests</file>
 
-    <rule ref="./vendor/fossbarrow/laravel-phpcs/ruleset.xml"/>
+    <rule ref="./vendor/fossbarrow/laravel-phpcs/phpcs.xml"/>
 </ruleset>
 ```
 
