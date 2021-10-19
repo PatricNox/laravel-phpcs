@@ -30,14 +30,14 @@
     <rule ref="Generic.Functions.OpeningFunctionBraceBsdAllman"/>
     <rule ref="Generic.Metrics.CyclomaticComplexity">
         <properties>
-            <property name="complexity" value="10"/>
-            <property name="absoluteComplexity" value="15"/>
+            <property name="complexity" value="20"/>
+            <property name="absoluteComplexity" value="25"/>
         </properties>
     </rule>
     <rule ref="Generic.Metrics.NestingLevel">
         <properties>
             <property name="nestingLevel" value="5"/>
-            <property name="absoluteNestingLevel" value="5"/>
+            <property name="absoluteNestingLevel" value="15"/>
         </properties>
     </rule>
     <rule ref="Generic.NamingConventions.ConstructorName"/>
