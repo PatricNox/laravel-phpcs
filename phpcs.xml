@@ -156,5 +156,6 @@
     <exclude-pattern>*/resources/lang/*</exclude-pattern>
 
     <arg name="colors"/>
+    <arg value="spv"/>
     <ini name="memory_limit" value="128M"/>
 </ruleset>
