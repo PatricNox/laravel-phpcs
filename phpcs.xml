@@ -55,7 +55,9 @@
     </rule>
     <rule ref="MySource.PHP.EvalObjectFactory"/>
     <rule ref="PSR1.Classes.ClassDeclaration"/>
-    <rule ref="PSR1.Files.SideEffects"/>
+    <rule ref="PSR1.Files.SideEffects">
+        <exclude-pattern>*/artisan</exclude-pattern>
+    </rule>
     <rule ref="PSR2.Classes.ClassDeclaration"/>
     <rule ref="PSR2.Classes.PropertyDeclaration"/>
     <rule ref="PSR2.ControlStructures.ControlStructureSpacing"/>
