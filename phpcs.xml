@@ -31,7 +31,7 @@
     <rule ref="Generic.Metrics.CyclomaticComplexity">
         <properties>
             <property name="complexity" value="20"/>
-            <property name="absoluteComplexity" value="25"/>
+            <property name="absoluteComplexity" value="50"/>
         </properties>
     </rule>
     <rule ref="Generic.Metrics.NestingLevel">
@@ -55,9 +55,7 @@
     </rule>
     <rule ref="MySource.PHP.EvalObjectFactory"/>
     <rule ref="PSR1.Classes.ClassDeclaration"/>
-    <rule ref="PSR1.Files.SideEffects">
-        <exclude-pattern>*/artisan</exclude-pattern>
-    </rule>
+    <rule ref="PSR1.Files.SideEffects"/>
     <rule ref="PSR2.Classes.ClassDeclaration"/>
     <rule ref="PSR2.Classes.PropertyDeclaration"/>
     <rule ref="PSR2.ControlStructures.ControlStructureSpacing"/>
@@ -93,7 +91,6 @@
         <exclude name="Squiz.Arrays.ArrayDeclaration.NoKeySpecified" />
         <exclude name="Squiz.Arrays.ArrayDeclaration.KeySpecified" />
     </rule>
-    <rule ref="Squiz.PHP.CommentedOutCode"/>
     <rule ref="Squiz.PHP.DisallowSizeFunctionsInLoops"/>
     <rule ref="Squiz.PHP.DiscouragedFunctions">
         <properties>
@@ -102,14 +99,12 @@
     </rule>
     <rule ref="Squiz.PHP.Eval"/>
     <rule ref="Squiz.PHP.GlobalKeyword"/>
-    <rule ref="Squiz.PHP.Heredoc"/>
     <rule ref="Squiz.PHP.LowercasePHPFunctions"/>
     <rule ref="Squiz.PHP.NonExecutableCode"/>
     <rule ref="Squiz.Scope.MemberVarScope"/>
     <rule ref="Squiz.Scope.MethodScope"/>
     <rule ref="Squiz.Scope.StaticThisUsage"/>
     <rule ref="Squiz.WhiteSpace.CastSpacing"/>
-    <rule ref="Squiz.WhiteSpace.ControlStructureSpacing"/>
     <rule ref="Squiz.WhiteSpace.LanguageConstructSpacing"/>
     <rule ref="Squiz.WhiteSpace.LogicalOperatorSpacing"/>
     <rule ref="Squiz.WhiteSpace.ObjectOperatorSpacing">
@@ -133,7 +128,7 @@
     <file>public</file>
     <file>resources</file>
     <file>routes</file>
-    <file>tests</file>
+    <file->tests</file->
 
     <exclude-pattern>*/.phpstorm.meta.php</exclude-pattern>
     <exclude-pattern>*/_ide_helper.php</exclude-pattern>
