@@ -11,7 +11,7 @@
 
 ## Requirements
 
-- PHP 7.4 or higher, as Laravel 7.x is using the latest 7.x version
+- https://github.com/squizlabs/PHP_CodeSniffer
 
 ## Table of contents
 
