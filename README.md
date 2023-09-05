@@ -24,17 +24,10 @@
 - [Credits](#credits)
 
 ## Installation
-Install the ruleset by **either**:
+Install the ruleset by
 
-1. Copy the `phpcs.xml` file into your project root.
-2. Install the ruleset (*)
+1. Copy the `phpcs.xml` file into your project root with phpcs installed.
 
-
-**[*]** Install using composer
-
-```bash
-composer require fossbarrow/laravel-phpcs --dev
-```
 ## Usage
 
 ### Enabling the rules
